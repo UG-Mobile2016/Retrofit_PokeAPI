@@ -9,7 +9,7 @@ import me.juancrg90.pokeapiexample.entities.Pokemon;
  */
 public class PokemonResponse {
     private int count;
-    private List<Pokemon> result;
+    private List<Pokemon> results;
 
     public int getCount() {
         return count;
@@ -19,11 +19,11 @@ public class PokemonResponse {
         this.count = count;
     }
 
-    public List<Pokemon> getResult() {
-        return result;
+    public List<Pokemon> getResults() {
+        return results;
     }
 
-    public void setResult(List<Pokemon> result) {
-        this.result = result;
+    public void setResults(List<Pokemon> results) {
+        this.results = results;
     }
 }
